@@ -1,4 +1,4 @@
-![Mobvoi Logo](https://github.com/user-attachments/assets/bd287e80-ad14-4b7a-9ee4-c8a3caf55238)
+![Mobvoi Logo](https://raw.githubusercontent.com/mobvoi/mobvoi-tts-mcp/master/.assets/logo.jpeg)
 
 <p align="center">
   Official Mobvoi TTS <a href="https://github.com/modelcontextprotocol">Model Context Protocol (MCP)</a> server that enables interaction with Mobvoi powerful Text to Speech, Voice Clone APIs. This server allows MCP clients like <a href="https://www.cursor.so">Cursor</a>, <a href="https://www.anthropic.com/claude">Claude Desktop</a>, <a href="https://cline.bot/">Cline</a> </a>, <a href="https://windsurf.com/editor">Windsurf</a> and other Client to generate speech, clone voices, and more. The mobvoi-tts-mcp server is built based on Python. Our PyPI package is published at Pypi, you can click on <a href="https://pypi.org/project/mobvoi-tts-mcp/">Pypi</a> to view the latest version.
@@ -102,7 +102,7 @@ Take Cline as an example, and the configuration of other clients is similar.
 1. Try cloning a voice from your audio file(local or remote), enter the following content in the Cursor agent mode: "[https://tc-nj-backend-pub-cdn.mobvoi.com/subtitles/wav/9e5d439e0e9142966037fb80fe9e0d8e.wav](https://tc-nj-backend-pub-cdn.mobvoi.com/subtitles/wav/9e5d439e0e9142966037fb80fe9e0d8e.wav), clone this voice"
 2. Specify the speaker, synthesize speech from the text and play it aloud. Prompt the model like the following: "Use the sound cloned just now to broadcast: 'Welcome to experience Mobvoi TTS MCP."
 3. A demonstration video:
-   ![Demo Video](https://github.com/user-attachments/assets/0ddea342-6354-4a0a-957c-67001f8337fb)
+   ![Demo Video](https://raw.githubusercontent.com/mobvoi/mobvoi-tts-mcp/master/.assets/20250507-134522.gif)
 
 ## Troubleshooting
 
