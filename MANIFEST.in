@@ -1,0 +1,11 @@
+include LICENSE
+include README.md
+include pyproject.toml
+
+recursive-include mobvoi_tts_mcp *
+recursive-include mobvoi_tts_sdk *
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store 
